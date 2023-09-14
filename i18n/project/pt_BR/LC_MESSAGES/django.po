@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 21:30+0000\n"
+"POT-Creation-Date: 2023-09-14 20:49-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,112 +18,108 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: authentication/models.py:12 authentication/models.py:35
+#: authentication/models.py:11 authentication/models.py:34
 msgid "Email should be provided"
 msgstr ""
 
-#: authentication/models.py:26
+#: authentication/models.py:25
 msgid "SuperUser should have is_staff as True"
 msgstr ""
 
-#: authentication/models.py:29
+#: authentication/models.py:28
 msgid "SuperUser should have is_superuser as True"
 msgstr ""
 
-#: authentication/models.py:32
+#: authentication/models.py:31
 msgid "SuperUser should have is_active as True"
 msgstr ""
 
-#: coupon/models.py:13
+#: coupon/models.py:12
 msgid "Not general"
 msgstr ""
 
-#: coupon/models.py:14
+#: coupon/models.py:13
 msgid "General"
 msgstr ""
 
-#: coupon/models.py:18
+#: coupon/models.py:17
 msgid "First Buy"
 msgstr ""
 
-#: coupon/models.py:19
+#: coupon/models.py:18
 msgid "Percentage discount"
 msgstr ""
 
-#: coupon/models.py:20
+#: coupon/models.py:19
 msgid "Fixed discount"
 msgstr ""
 
-#: coupon/models.py:26
+#: coupon/models.py:25
 msgid "Discount"
 msgstr ""
 
-#: coupon/models.py:32
+#: coupon/models.py:31
 msgid "Discount type"
 msgstr ""
 
-#: coupon/models.py:38
+#: coupon/models.py:37
 msgid "Min. value"
 msgstr ""
 
-#: coupon/models.py:44
+#: coupon/models.py:43
 msgid "Code"
 msgstr ""
 
-#: coupon/models.py:48
+#: coupon/models.py:47
 msgid "Expiration date"
 msgstr ""
 
-#: coupon/models.py:52 coupon/models.py:57
+#: coupon/models.py:51 coupon/models.py:56
 msgid "Times used"
 msgstr ""
 
-#: coupon/models.py:63
+#: coupon/models.py:62
 msgid "Coupon type"
 msgstr ""
 
-#: coupon/models.py:72
-msgid "Expiration date must be greater than the creation date"
-msgstr ""
-
-#: coupon/models.py:78
-msgid "Discount percentage range is from 0 to 100"
-msgstr ""
-
-#: coupon/models.py:83
-msgid "Minimum value must be less than discount"
-msgstr ""
-
-#: coupon/models.py:93
+#: coupon/models.py:77
 msgid "Coupon"
 msgstr ""
 
-#: coupon/models.py:99
+#: coupon/models.py:83
 msgid "Total value"
 msgstr ""
 
-#: coupon/models.py:105
+#: coupon/models.py:89
 msgid "Total discount"
 msgstr ""
 
-#: coupon/services.py:15
-msgid "Coupon is not valid for first use"
+#: coupon/serializers.py:33
+msgid "Expiration date must be greater than the creation date"
 msgstr ""
 
-#: coupon/services.py:17 coupon/services.py:30 coupon/services.py:37
-msgid "Coupon is not valid for this value. Minimum value is {}"
+#: coupon/serializers.py:41
+msgid "Discount percentage range is from 0 to 100"
 msgstr ""
 
-#: coupon/services.py:25
-msgid "Coupon is not valid for this value. Value greater than the discount {}"
+#: coupon/serializers.py:48
+msgid "Minimum value must be less than discount"
 msgstr ""
 
-#: coupon/services.py:49
+#: coupon/services.py:19
 msgid "Coupon has expired"
 msgstr ""
 
-#: coupon/services.py:52
+#: coupon/services.py:22
 msgid "Coupon sold out"
+msgstr ""
+
+#: coupon/services.py:26
+msgid "Coupon is not valid for this value. Minimum value is {}"
+msgstr ""
+
+#: coupon/services.py:37
+msgid "Coupon valid only for first use"
 msgstr ""
 
 #: coupon/views.py:36
