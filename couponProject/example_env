@@ -1,0 +1,8 @@
+SECRET_KEY=
+DEBUG=True
+DB_NAME=default_database
+DB_USER=user_default
+DB_PASSWORD=defaultdatabase
+DB_ENGINE=django.db.backends.postgresql
+DB_HOST=localhost
+DB_PORT=5432
