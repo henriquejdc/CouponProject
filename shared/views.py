@@ -4,12 +4,10 @@ from django.core.exceptions import FieldDoesNotExist
 from django.db import IntegrityError
 from django.db.models import ProtectedError
 from django.http.response import Http404
-from django.utils.translation import gettext_lazy as _
 from drf_yasg.utils import swagger_auto_schema
 
 # Third party imports
 from rest_framework import permissions, status, viewsets
-from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError as RestFrameworkValidationError
 from rest_framework.filters import (
     SearchFilter,

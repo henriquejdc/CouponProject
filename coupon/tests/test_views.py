@@ -1,11 +1,16 @@
+# Base imports
 import json
 from typing import List
 
+# Django imports
 from django.urls import reverse
 from django.utils import timezone
 from model_bakery import baker
+
+# Third party imports
 from rest_framework import status
 
+# Project imports
 from coupon.serializers import GetCouponSerializer
 from shared.tests import BaseAPITestCase
 

@@ -1,9 +1,10 @@
 """
 This module contains the unit tests for the services in shared app.
 """
-from django.utils import timezone
+# Django imports
 from django.test import TestCase
 
+# Third party imports
 from model_bakery import baker
 
 
