@@ -1,7 +1,7 @@
 ### Coupon System RestAPI
 **Abordagem:** Utilizado um projeto meu de base acrescentando a
 o app e o viewset Coupon (Cupom) onde o POST /coupon/
-trata-se da criação do coupom e o POST 
+trata-se da criação do cupom e o POST 
 /coupon/use_coupon/ trata-se da utilização do cupom.
 
 **Por que desta abordagem?**
