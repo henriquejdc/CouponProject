@@ -35,6 +35,12 @@ python manage.py migrate
 ```
 
 
+### Collect Staticfiles: 
+```
+python manage.py collectstatic   
+```
+
+
 ### Run: 
 ```
 python manage.py runserver
@@ -58,7 +64,7 @@ To login use email and password
 
 ### Unit Tests: 
 ```
-python manage.py test --failfast
+python manage.py test --failfast coupon
 ```
 
 ### Unit Tests Report HTML: 
