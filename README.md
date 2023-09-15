@@ -62,14 +62,12 @@ python manage.py test --failfast
 ```
 
 ### Unit Tests Report HTML: 
-Relatório de cobertura do app feito para o teste
 ```
 coverage run --source='./coupon' manage.py test
 coverage report
 
 coverage html
 ```
-Isso criará uma pasta chamada htmlcov com o html dos arquivos.
 
 
 ### New translations:
@@ -79,7 +77,7 @@ python manage.py makemessages --locale pt_BR
 Change to pt-br on settings:
 LANGUAGE_CODE= 'pt-BT'
 
-Obs: Não traduzi - Poderia se usar o Poedit. Deixei assim para futuras traduções.
+Obs: Necessary translate to portuguese.
 ```
 
 
