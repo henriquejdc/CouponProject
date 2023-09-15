@@ -1,4 +1,19 @@
 ### Coupon System RestAPI
+**Abordagem:** Utilizado um projeto meu de base acrescentando a
+o app e o viewset Coupon (Cupom) onde o POST /coupon/
+trata-se da criação do coupom e o POST 
+/coupon/use_coupon/ trata-se da utilização do cupom.
+
+**Por que desta abordagem?**
+Acredito que um cupom não seja apenas um ID inteiro,
+caso fosse poderia tratar-se com o próprio POST de criação
+e o PUT para sua utilização/atualização.
+
+Entretanto, acredito que um cupom possa ser várias letras
+e números, podendo em caso de ser utilizado como chave primária
+prejudicar consultas e performance.
+Também, deixaria exposto o cupom como chave ao ser utilizado
+no navegador.
 
 
 ### Environment: 
