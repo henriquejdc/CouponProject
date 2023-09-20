@@ -17,6 +17,7 @@ no navegador.
 
 
 ### Environment: 
+Versão do Python 3.8.10
 ```
 python3 -m venv venv 
 OR
